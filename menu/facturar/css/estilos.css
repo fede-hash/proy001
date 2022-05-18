@@ -1,0 +1,31 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container-fluid{
+	padding: 0px;
+}
+
+.contenedor{
+	border: 1px solid red;
+	width: max-width;
+	height: 180px;
+
+}
+div .caja1{
+	width: 280px;
+	height: 150px;
+	
+	background-color: black;
+	opacity: 0.9;
+		display: inline-block;
+}
+div .caja1:hover{
+	opacity: 0.5;
+	transition-delay: 0.1;
+	cursor: pointer;
+}
+div .caja1 a{
+	text-decoration: none;
+	color: white;
+}
