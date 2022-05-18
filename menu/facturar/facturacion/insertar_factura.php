@@ -77,7 +77,7 @@ require("conexion.php");
 //   array_unique($cliente[1][$i]['id'])  
 // }
 
-echo json_encode("provando git 2");
-
+// echo json_encode("provando git 2");
+echo json_encode("provand git 33");
 
 ?>
