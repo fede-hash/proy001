@@ -73,10 +73,11 @@ require("conexion.php");
 // $cantProductos = count($cliente[1]);
 // echo json_encode($cantProductos)
 
-for ($i=0;$i<count($cliente[1]);$i++) { 
-  array_unique($cliente[1][$i]['id'])  
-}
+// for ($i=0;$i<count($cliente[1]);$i++) { 
+//   array_unique($cliente[1][$i]['id'])  
+// }
 
+echo json_encode("provando git 2");
 
 
 ?>
