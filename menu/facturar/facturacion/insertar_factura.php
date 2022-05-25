@@ -6,6 +6,7 @@ require("conexion.php");
  $cliente = json_decode($payload,true);
  $hoy = date("m-d-y");
 
+print_r($cliente);
 // $contadoCliente = count($cliente[0]);
 // if ($contadoCliente == 4) {
 //    if ($cliente[0][3] === "Consumidor Final") {
@@ -67,17 +68,5 @@ require("conexion.php");
 //       ':num_factura' => $resultado['num_factura']
 //    ));
 //  }
-
-// echo json_encode($cliente);
-// print_r($cliente[1]);
-// $cantProductos = count($cliente[1]);
-// echo json_encode($cantProductos)
-
-// for ($i=0;$i<count($cliente[1]);$i++) { 
-//   array_unique($cliente[1][$i]['id'])  
-// }
-
-// echo json_encode("provando git 2");
-echo json_encode("provand git 33");
 
 ?>
